@@ -1,0 +1,41 @@
+{
+    "version": "1.6.0-rc1",
+    "description": "A programming language that is a fresh approach to technical computing.",
+    "homepage": "https://julialang.org",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.6/julia-1.6.0-rc1-win64.exe",
+            "hash": "7a81fa6d83d2e15b38b794006d2bf4731134c530113584d3b40497209d100bd4"
+        },
+        "32bit": {
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x86/1.6/julia-1.6.0-rc1-win32.exe",
+            "hash": "ca69292729212e29eacf68ef547a5d5ee2a96d06be2517a3b1186463e156a4b5"
+        }
+    },
+    "innosetup": true,
+    "bin": "bin\\julia.exe",
+    "checkver": {
+        "url": "https://julialang.org/downloads/",
+        "regex": "Upcoming release: v([\\d.]+-rc\\d+?)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://julialang-s3.julialang.org/bin/winnt/x64/$majorVersion.$minorVersion/julia-$version-win64.exe"
+            },
+            "32bit": {
+                "url": "https://julialang-s3.julialang.org/bin/winnt/x86/$majorVersion.$minorVersion/julia-$version-win32.exe"
+            }
+        },
+        "hash": {
+            "url": "https://julialang-s3.julialang.org/bin/checksums/julia-$version.sha256"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\julia.exe",
+            "Julia"
+        ]
+    ]
+}
