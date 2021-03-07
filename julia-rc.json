@@ -6,14 +6,15 @@
     "architecture": {
         "64bit": {
             "url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.6/julia-1.6.0-rc1-win64.zip",
-            "hash": "6b06cf83ebd1ddee8581cc7afa3803268497b73b300401aac82882210af9bfb8"
+            "hash": "6b06cf83ebd1ddee8581cc7afa3803268497b73b300401aac82882210af9bfb8",
+            "extract_dir": "julia-1.6.0-rc1"
         },
         "32bit": {
             "url": "https://julialang-s3.julialang.org/bin/winnt/x86/1.6/julia-1.6.0-rc1-win32.zip",
-            "hash": "47bb830fed6c971f9387facba479a462f13f24630e37a7d14c2656625c3adbf0"
+            "hash": "47bb830fed6c971f9387facba479a462f13f24630e37a7d14c2656625c3adbf0",
+            "extract_dir": "julia-1.6.0-rc1",
         }
     },
-    "extract_dir": "julia-1.6.0-rc1",
     "bin": "bin\\julia.exe",
     "checkver": {
         "url": "https://julialang.org/downloads/",
