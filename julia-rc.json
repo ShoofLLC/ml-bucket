@@ -13,7 +13,8 @@
             "hash": "47bb830fed6c971f9387facba479a462f13f24630e37a7d14c2656625c3adbf0"
         }
     },
-    "bin": "julia-$version\\bin\\julia.exe",
+    "extract_dir": "julia-$version",
+    "bin": "bin\\julia.exe",
     "checkver": {
         "url": "https://julialang.org/downloads/",
         "regex": "Upcoming release: v([\\d.]+-rc\\d+?)"
@@ -33,8 +34,8 @@
     },
     "shortcuts": [
         [
-            "julia-$version\\bin\\julia.exe",
-            "JuliaRC"
+            "bin\\julia.exe",
+            "Julia-rc"
         ]
     ]
 }
