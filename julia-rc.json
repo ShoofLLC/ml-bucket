@@ -13,7 +13,7 @@
             "hash": "47bb830fed6c971f9387facba479a462f13f24630e37a7d14c2656625c3adbf0"
         }
     },
-    "extract_dir": "julia-$version",
+    "extract_dir": "julia-1.6.0-rc1",
     "bin": "bin\\julia.exe",
     "checkver": {
         "url": "https://julialang.org/downloads/",
@@ -22,10 +22,12 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://julialang-s3.julialang.org/bin/winnt/x64/$majorVersion.$minorVersion/julia-$version-win64.zip"
+                "url": "https://julialang-s3.julialang.org/bin/winnt/x64/$majorVersion.$minorVersion/julia-$version-win64.zip",
+                "extract_dir": "julia-$version"
             },
             "32bit": {
-                "url": "https://julialang-s3.julialang.org/bin/winnt/x86/$majorVersion.$minorVersion/julia-$version-win32.zip"
+                "url": "https://julialang-s3.julialang.org/bin/winnt/x86/$majorVersion.$minorVersion/julia-$version-win32.zip",
+                "extract_dir": "julia-$version",
             }
         },
         "hash": {
