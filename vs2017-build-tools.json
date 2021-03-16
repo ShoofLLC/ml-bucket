@@ -2,11 +2,11 @@
     "version": "2017",
     "description": "Visual Studio 2017 Build Tools",
     "homepage": "https://visualstudio.microsoft.com",
-    "license": "Microsoft",
-    "architecture": {
-        "64bit": {
-            "url": "https://download.visualstudio.microsoft.com/download/pr/62b68847-6218-46c3-bee7-a293d3615b3f/f9df8470d9e57e9e822909dc7fc28c83f159a31023b205360778b941fb0cc884/vs_BuildTools.exe",
-            "hash": "f9df8470d9e57e9e822909dc7fc28c83f159a31023b205360778b941fb0cc884"
-        }
-    }
+    "license": {
+        "identifier": "Microsoft",
+        "url":"https://go.microsoft.com/fwlink/?LinkID=831114"
+    },        
+    "url": "https://download.visualstudio.microsoft.com/download/pr/62b68847-6218-46c3-bee7-a293d3615b3f/f9df8470d9e57e9e822909dc7fc28c83f159a31023b205360778b941fb0cc884/vs_BuildTools.exe",
+    "hash": "f9df8470d9e57e9e822909dc7fc28c83f159a31023b205360778b941fb0cc884",
+    "innosetup": true
 }
