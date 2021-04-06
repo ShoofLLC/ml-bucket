@@ -21,6 +21,7 @@
             "/install /layout $dir /log $dir/log.txt"
             ]
     },
-    "post_install":"if (!(Test-Path $dir/bin/cl.exe)) {echo \"Installation failed please check the log: '$dir'\\log.txt\"}"
+    "post_install":"if (!(Test-Path $dir/bin/cl.exe)) {throw \"Installation failed please check the log: $dir\\log.txt\"}",
+    "bin":"$dir/bin/cl.exe",
 }
 
