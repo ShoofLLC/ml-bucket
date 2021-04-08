@@ -1,0 +1,27 @@
+https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-21.2-x64.exe
+
+{
+    "version": "21.2",
+    "description": "MiKTeX (pronounced mick-tech) is an up-to-date implementation of TeX/LaTeX and related programs.",
+    "homepage": "https://www.texstudio.org",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-21.2-x64.exe",
+            "hash": "cb4160f7d3f310ff3490b51004596c2e42d272c08e8a1143d0757ece1ebf9d07"
+        }
+    },
+    "innosetup" : true,
+    "bin": ["miktex-console.exe", "miktex-texworks.exe"],
+    "shortcuts": [
+        [
+            "miktex-console.exe",
+            "miktex-console"
+        ],
+        [
+            "miktex-texworks.exe",
+            "miktex-texworks"
+        ]
+    ],
+    "env_add_path": "$dir/MiKTeX/miktex/bin/x64/"
+}
