@@ -23,5 +23,5 @@
             "miktex-texworks"
         ]
     ],
-    "env_add_path": "$dir/texmfs/install/miktex/bin/x64/"
+    "env_add_path": "texmfs/install/miktex/bin/x64/"
 }
