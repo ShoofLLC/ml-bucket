@@ -10,7 +10,7 @@
         }
     },
     "installer" : {
-        "args":["--user-install=$dir", "--unattended", "--auto-install=yes"]
+        "args":["--portable=$dir", "--unattended", "--auto-install=yes"]
     },
     "bin": ["miktex-console.exe", "miktex-texworks.exe"],
     "shortcuts": [
