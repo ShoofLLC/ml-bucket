@@ -12,16 +12,16 @@
     "installer" : {
         "args":["--portable=$dir", "--unattended", "--auto-install=yes"]
     },
-    "bin": ["miktex-console.exe", "miktex-texworks.exe"],
+    "bin": ["texmfs/install/miktex/bin/x64/miktex-console.exe", "texmfs/install/miktex/bin/x64/miktex-texworks.exe"],
     "shortcuts": [
         [
-            "miktex-console.exe",
+            "texmfs/install/miktex/bin/x64/miktex-console.exe",
             "miktex-console"
         ],
         [
-            "miktex-texworks.exe",
+            "texmfs/install/miktex/bin/x64/miktex-texworks.exe",
             "miktex-texworks"
         ]
     ],
-    "env_add_path": "$dir/MiKTeX/miktex/bin/x64/"
+    "env_add_path": "$dir/texmfs/install/miktex/bin/x64/"
 }
