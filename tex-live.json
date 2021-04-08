@@ -9,7 +9,9 @@
             "hash": "cb4160f7d3f310ff3490b51004596c2e42d272c08e8a1143d0757ece1ebf9d07"
         }
     },
-    "innosetup" : true,
+    "installer" : {
+        "args":["--user-install=$dir", "--unattended", "--auto-install=yes"]
+    },
     "bin": ["miktex-console.exe", "miktex-texworks.exe"],
     "shortcuts": [
         [
