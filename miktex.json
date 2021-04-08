@@ -1,7 +1,7 @@
 {
     "version": "21.2",
     "description": "MiKTeX (pronounced mick-tech) is an up-to-date implementation of TeX/LaTeX and related programs.",
-    "homepage": "https://www.texstudio.org",
+    "homepage": "https://miktex.org/",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
