@@ -27,13 +27,14 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run checkver
-        run: $GITHUB_WORKSPACE\bin\checkver.ps1
+        run: .\bin\checkver.ps1
         shell: powershell
 
       # Runs a set of commands using the runners shell
       - name: Git commit
         run: |
-          cd $GITHUB_WORKSPACE
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           git add -u
           git commit -m "Automatically updated app manifests"
           git push
