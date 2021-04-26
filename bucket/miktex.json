@@ -28,7 +28,7 @@
     ],
         "checkver": {
         "url": "https://miktex.org/download/",
-        "regex": "File name:\\s*?basic-miktex-([\\d.]+)-x64.exe"
+        "regex": "basic-miktex-([\\d.]+)-x64.exe"
     },
     "autoupdate": {
         "architecture": {
