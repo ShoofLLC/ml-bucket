@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run checkver
-        run: $GITHUB_WORKSPACE/bin/checkver.ps1
+        run: $GITHUB_WORKSPACE\bin\checkver.ps1
 
       # Runs a set of commands using the runners shell
       - name: Git commit
