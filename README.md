@@ -1,8 +1,8 @@
 # ml-bucket
 This is a bucket mainly for ML tools like Julia.
 The bucket also includes:
--Tex-Studio
--Miktex
+  * Tex-Studio
+  * Miktex
 
 Other app manifests are probably not working.
 
