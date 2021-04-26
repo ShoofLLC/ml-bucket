@@ -38,7 +38,7 @@
         },
         "hash": {
             "url": "https://miktex.org/download/",
-            "regex": "SHA-256:\\s*?([a-z0-9]+)"
+            "regex": "([a-z0-9]{60,})"
         }
     },
     "env_add_path": "texmfs/install/miktex/bin/x64/"
