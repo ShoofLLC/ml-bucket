@@ -1,0 +1,13 @@
+
+{
+    "version": "7.6.2",
+    "description": "NoMachine is a remote desktop tool.",
+    "homepage": "https://www.nomachine.com/",
+    "license": { "name": "No Machine",
+                 "url":"https://www.nomachine.com/licensing"},
+    "url": "https://download.nomachine.com/download/7.6/Windows/nomachine_7.6.2_4.exe",
+    "hash": "f408039d5652c6ee1d41b7ae9ad7747995bcb71008366d73970949b7e83c8499",
+    "innosetup": true,
+    "bin": "bin\\nomachine.exe",
+    "checkver": "nomachine_([\\d.]+)_.?\\.exe"
+}
