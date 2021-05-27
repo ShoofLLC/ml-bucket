@@ -8,6 +8,6 @@
     "url": "https://download.nomachine.com/download/7.6/Windows/nomachine_7.6.2_4.exe",
     "hash": "f408039d5652c6ee1d41b7ae9ad7747995bcb71008366d73970949b7e83c8499",
     "innosetup": true,
-    "bin": "bin\\nomachine.exe",
+    "bin": "bin\\nxclient.exe",
     "checkver": "nomachine_([\\d.]+)_.?\\.exe"
 }
